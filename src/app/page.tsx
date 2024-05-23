@@ -1,9 +1,14 @@
-import { Container, Text } from "@chakra-ui/react";
+import { SignInButton, SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
 
 export default function Home() {
   return (
-    <Container>
-      <Text>hi</Text>
-    </Container>
+    <main>
+      <SignedOut>
+        <SignInButton />
+      </SignedOut>
+      <SignedIn>
+        <UserButton />
+      </SignedIn>
+    </main>
   );
 }
