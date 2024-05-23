@@ -4,7 +4,6 @@ import Link from "next/link";
 
 const Header = () => {
     return (
-
         <Flex
             as="header"
             align="center"
