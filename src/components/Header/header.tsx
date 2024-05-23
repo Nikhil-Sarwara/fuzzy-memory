@@ -1,4 +1,6 @@
 import { Flex, Heading, Button } from "@chakra-ui/react";
+import { SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
+import Link from "next/link";
 
 const Header = () => {
     return (
@@ -13,7 +15,18 @@ const Header = () => {
             <Heading as="h1" size="lg">
                 QR Code Generator
             </Heading>
-            <Button colorScheme="teal">Get Started</Button>
+
+            {/* Getting Started if not logged in */}
+            <SignedOut>
+                <Link href="/sign-in">
+                    <Button colorScheme="teal">Get Started</Button>
+                </Link>
+            </SignedOut>
+
+            {/*  Else if logged in show profile */}
+            <SignedIn>
+                <UserButton />
+            </SignedIn>
         </Flex>
     )
 }
