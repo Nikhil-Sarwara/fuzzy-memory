@@ -38,7 +38,7 @@ const AboutPage = () => {
                             QR Code Generator is an innovative tool designed to help you create customizable QR codes effortlessly. Our mission is to simplify the process of generating QR codes for various purposes, making it accessible for everyone.
                         </Text>
                         <Text fontSize="lg">
-                            Whether you're a business owner looking to create QR codes for your products, a marketer aiming to engage customers through interactive campaigns, or an individual wanting to share information quickly, our application provides all the features you need.
+                            Whether you`&apos;`re a business owner looking to create QR codes for your products, a marketer aiming to engage customers through interactive campaigns, or an individual wanting to share information quickly, our application provides all the features you need.
                         </Text>
                         <Text fontSize="lg">
                             Our team is passionate about technology and user experience. We are dedicated to continuously improving our application to meet your needs and exceed your expectations.

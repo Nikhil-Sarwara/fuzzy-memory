@@ -27,7 +27,7 @@ const ContactPage = () => {
                         Contact Us
                     </Heading>
                     <Text fontSize="lg" color="gray.500">
-                        We'd love to hear from you! Fill out the form below to get in touch.
+                        We`&apos;`d love to hear from you! Fill out the form below to get in touch.
                     </Text>
                 </Box>
 
